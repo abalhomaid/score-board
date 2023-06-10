@@ -73,9 +73,9 @@ export default function Home() {
       <li key={index} className="list-group-item">
         <div className="row">
           <div className="col-3" />
-          <div className="col-3">{item.name}</div>
+          <div className="col-3"><h2>{item.name}</h2></div>
 
-          <div className="col-1">{item.score}</div>
+          <div className="col-1"><h2>{item.score}</h2></div>
           <div className="col-3">
             <div className="ms-3 btn-group shadow-0" role="group">
               <button
