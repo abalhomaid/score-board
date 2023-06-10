@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Head from 'next/head';
 
 export default function Home() {
-  const [names, setNames] = useState(() => 
+  const [names, setNames] = useState<any[]>(() => 
       [
         // { name: "John Doe", score: 0 },
         // { name: "Jane Smith", score: 0 },
